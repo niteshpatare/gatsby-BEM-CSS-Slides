@@ -105,6 +105,12 @@ pre {
 code {
   font-family: menlo, monospace;
   font-size: 90%;
+  display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    color: #333;
+    background: #f8f8f8;
+    border:1px solid #888;
 }
 
 a:hover {
