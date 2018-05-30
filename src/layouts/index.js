@@ -74,12 +74,14 @@ class TemplateWrapper extends Component {
           title={data.site.siteMetadata.title}
           date={data.site.siteMetadata.date}
         />
+        <div className='sectionWrapper'>
         <Swipeable
           onSwipingLeft={this.swipeLeft}
           onSwipingRight={this.swipeRight}
         >
           <div id="slide">{children()}</div>
         </Swipeable>
+        </div>
       </div>
     );
   }

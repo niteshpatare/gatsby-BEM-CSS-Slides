@@ -37,11 +37,11 @@ html {
 
 #slide {
   display: flex;
-  overflow: hidden;
+  overflow: visible;
   justify-content: center;
   align-items: center;
 
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   padding: 1rem;
 
@@ -133,7 +133,7 @@ p {
 }
 
 header {
-  font-size: 50%;
+  font-size: 14px;
 
   position: fixed;
   top: 0;
@@ -145,10 +145,14 @@ header {
 
   width: 100%;
   padding: 20px;
-
+  background: #fff;
+  border-bottom: 1px solid #ddd;
   user-select: none;
+  
 }
-
+.sectionWrapper{
+  margin-top: 70px;
+}
 header a,
 time {
   text-decoration: none;
