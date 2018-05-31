@@ -30,6 +30,7 @@ html {
   padding: 0;
   color: var(--text);
   background-color: var(--bg);
+  line-height: 1.8;
 }
 
 #slide {
@@ -42,7 +43,8 @@ html {
   height: 100%;
   padding: 1rem;
 
-
+  max-width: 1620px;
+  margin: 0 auto;
 
   -webkit-overflow-scrolling: touch;
 }
