@@ -81,7 +81,16 @@ class TemplateWrapper extends Component {
         >
           <div id="slide">{children()}</div>
         </Swipeable>
+
         </div>
+          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-18289054-3"></script>
+          <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-18289054-3');
+          </script>
       </div>
     );
   }
