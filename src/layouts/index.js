@@ -12,6 +12,14 @@ const Header = ({ name, title, date }) => (
       <span>{name}</span> — {title}
     </Link>
     <time>{date}</time>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-18289054-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-18289054-3');
+    </script>
   </header>
 );
 
@@ -83,14 +91,6 @@ class TemplateWrapper extends Component {
         </Swipeable>
 
         </div>
-          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-18289054-3"></script>
-          <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'UA-18289054-3');
-          </script>
       </div>
     );
   }
