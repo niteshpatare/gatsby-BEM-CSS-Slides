@@ -5,7 +5,7 @@ import Helmet from 'react-helmet';
 import Swipeable from 'react-swipeable';
 
 import './index.css';
-import 'https://www.googletagmanager.com/gtag/js?id=UA-18289054-3';
+import '//googletagmanager.com/gtag/js?id=UA-18289054-3';
 
 const Header = ({ name, title, date }) => (
   <header>
