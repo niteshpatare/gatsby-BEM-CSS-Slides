@@ -5,7 +5,6 @@ import Helmet from 'react-helmet';
 import Swipeable from 'react-swipeable';
 
 import './index.css';
-import '//googletagmanager.com/gtag/js?id=UA-18289054-3';
 
 const Header = ({ name, title, date }) => (
   <header>
@@ -61,10 +60,6 @@ class TemplateWrapper extends Component {
 
   componentWillUnmount() {
     document.removeEventListener('keydown', this.navigate);
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-18289054-3');
   }
 
   render() {
