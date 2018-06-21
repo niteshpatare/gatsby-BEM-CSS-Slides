@@ -15,7 +15,11 @@
 * {
   box-sizing: border-box;
 }
-
+.place-left{ float:left;}
+.place-right{ float:right;}
+.place-right a, .place-left a{
+  color: var(--accent);
+}
 body,
 html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
@@ -174,7 +178,7 @@ header {
   background: #fff;
   border-bottom: 1px solid #ddd;
   user-select: none;
-  
+
 }
 .sectionWrapper{
   margin-top: 70px;
