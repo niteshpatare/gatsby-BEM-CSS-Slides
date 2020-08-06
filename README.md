@@ -2,7 +2,6 @@
 Brown Bag session conducted at @RapidCircle Company Office.
 
 ## You can view the presentation at below link - 
-http://bem.knytesh.com
 
 
 * USed the below Starter Kit for creating presentation for the session.
