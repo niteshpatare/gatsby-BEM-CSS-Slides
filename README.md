@@ -3,6 +3,7 @@ Brown Bag session conducted at @RapidCircle Company Office.
 
 ## You can view the presentation at below link - 
 
+[https://ecstatic-babbage-b8c61a.netlify.app/](https://ecstatic-babbage-b8c61a.netlify.app/)
 
 * USed the below Starter Kit for creating presentation for the session.
 
