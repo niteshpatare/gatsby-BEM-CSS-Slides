@@ -13,7 +13,7 @@
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-remark-smartypants": "^1.4.10",
     "gatsby-source-filesystem": "^1.5.18",
-    "gatsby-transformer-remark": "^1.7.31",
+    "gatsby-transformer-remark": "^5.25.1",
     "history": "^4.7.2",
     "react-swipeable": "^4.2.0",
     "react-transition-group": "^2.2.1"
